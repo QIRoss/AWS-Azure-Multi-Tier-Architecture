@@ -9,3 +9,10 @@ Days 11–20: Advanced Cloud-Native Technologies
 Day 11–12: Implement a multi-cloud architecture for an application, using AWS and Azure.
 
 Basic AWS S3 frontend with Azure B1S VM FastAPI backend.
+
+Run:
+```
+terraform init
+terraform plan -out=tfplan
+terraform apply tfplan
+```
